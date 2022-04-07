@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script data-pace-options='{"restartOnRequestAfter": false, "startOnPageLoad": false}' src="src/vendor/pace.min.js"></script>
+    <link rel="stylesheet" href="src/styles/components/pace-loader.css">
+    <script>
+        //if(window.innerWidth > 1024) Pace.start();
+        var svg = '<svg width="252" height="252" viewBox="0 0 252 252" fill="none" xmlns="http://www.w3.org/2000/svg"> \
+                    <circle cx="126" cy="126" r="125.5" stroke="#DDDDDD"/> \
+                    <circle cx="126" cy="126" r="125.5" stroke="#111111" stroke-dasharray="790px" stroke-dashoffset="790px" class="svg-progress-dash"/> \
+                   </svg>';
+        Pace.start();
+
+        var progressCircleEl = null;
+        Pace.on('start', function() {
+            var el = document.createElement('div');
+            el.classList.add('loader-svg');
+            el.innerHTML = svg;
+            progressCircleEl = el.querySelector('.svg-progress-dash');
+            Pace.bar.el.children[0].appendChild(el);
+        });
+        Pace.on('progress', function(p) {
+            progressCircleEl.setAttribute('stroke-dashoffset', (790 * (100 - p) / 100) + 'px');
+        });
+    </script>
+   <title>wycliffe Pepela &#8211; Design Director</title>
+    <meta name='robots' content='noindex, nofollow' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "src\/scripts\/js\/wp-emoji-release.min.js?ver=5.7.2"
+            }
+        };
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='styles/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+    <meta name="generator" content="WordPress 5.7.2" />
+    <link rel="apple-touch-icon" sizes="120x120" href="uploads/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="uploads/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="uploads/favicon-16x16.png">
+    <link rel="shortcut icon" href="uploads/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet"href="styles/combined.css">
+    <script src="src/scripts/utils.js"></script>
+    <script src="src/scripts/lines-shift-animation.js"></script>
+</head>
+
+<body class="home page-template page-template-page-minimal page-template-page-minimal-php page page-id-6">
+    <div class="wrapper">
+        <div class="wp-block-group max-width-container">
+            <div class="wp-block-group__inner-container">
+                <section class="home-header section-container">
+                    <h1 class="home-header__title heading--prime">Pepela</h1>
+                    <div class="home-header__content">
+                        <div class="home-header__left">
+                            <a class="home-header__email lines-shift-container" href="mailto:wycliffepepela01@gmail.com">wycliffepepela01@gmail.com</a>
+                            <div class="home-header__position lines-shift-container" style="--shift-delay: calc(var(--shift-base-delay) * 1)">/Lead Designer</div>
+                            <div class="home-header__position lines-shift-container" style="--shift-delay: calc(var(--shift-base-delay) * 2)">/Design Director</div>
+                        </div>
+                        <div class="home-header__right">
+                            <div class="home-header__about-text">
+                                3 years design experience.<br /> Based in Nairobi, Africa <span class="home-header__local-time local-time-container" data-timezone="Africa/Nairobi">10:57 AM</span>.<br /> Get in touch for availability. </div>
+                            <div class="home-header__social-links">
+                                <a href="https://www.linkedin.com/in/Wycliffe Pepela" class="home-header__social-link link-underline">LinkedIn</a>
+                                <a href="https://www.behance.net/#" class="home-header__social-link link-underline">Behance</a>
+                                <a href="https://dribbble.com/#" class="home-header__social-link link-underline">Dribbble</a>
+                                <a href="https://www.instagram.com/#/" class="home-header__social-link link-underline">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <div class="wp-block-group home-projects section-container">
+                    <div class="wp-block-group__inner-container">
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/clash-royale/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">Clash Royale</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);">UX/UI Website Design.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">A website educating users on how to play the game as well as showing off all the amazing artwork, arenas and the characters.</div>
+                                    <a href="project/clash-royale/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/clash-royale/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2020/12/Clash-Royale.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2020/12/Clash-Royale.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/slacker-radio/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">Pod Radio</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);">UX/UI. Application Design</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">A new app experience with a high emphasis on user interactivity and visual content in a functional yet innovative design.</div>
+                                    <a href="project/slacker-radio/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/slacker-radio/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2020/12/Home_Slacker.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2021/01/Slacker_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/fc-barcelona/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">FC Barcelona</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);">UX/UI Design. Concept Development</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">Creating a better online experience for the club connecting the team and its millions of fans in more intriguing and innovative ways.</div>
+                                    <a href="project/fc-barcelona/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/fc-barcelona/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2020/12/Home_FCB.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2020/12/Barca.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/qld-ballet/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">Queensland Ballet</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);"> UX/UI Website Design.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">An elegant microsite showcasing the 2013 season productions of Queensland Ballet within an interactive experience.</div>
+                                    <a href="project/qld-ballet/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/qld-ballet/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2020/12/Home_Ballet.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2020/12/Ballet_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/nike-one/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">Nike One</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);">UX/UI App Design &amp; Concept.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">A digital exploration that connects retail, e-commerce and user engagement within a rich app experience.</div>
+                                    <a href="project/nike-one/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/nike-one/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2020/12/Home_NikeOne.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2020/12/NikeOne_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/cua-bank/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">CUA Bank</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);">UX/UI App / Web Design.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">A modern and cohesive design experience throughout the digital app, campaigns and main website.</div>
+                                    <a href="project/cua-bank/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/cua-bank/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2021/01/Home_CUA.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2021/01/CUA_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/lavo/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">LAVO</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);">UX/ID Website Design.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">LAVO needed a modern yet slick website that gave customers an immersive experience of the brand and its core product.</div>
+                                    <a href="project/lavo/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/lavo/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2020/12/Home_Lavo.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2021/01/Lavo_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/nextfleet/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">NextFleet</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);"> UX/UI Web Design.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">An elegant responsive website providing information, tools and custom interactive calculators to customers.</div>
+                                    <a href="project/nextfleet/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/nextfleet/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2021/07/Home_NextFleet.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2021/01/NextFleet_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+<!-- .....................................editter section start........................................................... -->
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/empire-jerky/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">Empire Jerky</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);"> Branding &amp; UX/UI Design.</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">The Empire Group wanted help to set one of their premium products a part by establishing a new brand from scratch.</div>
+                                    <a href="project/empire-jerky/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="project/empire-jerky/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2021/01/Home_Empire-Jerky.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2021/01/Empire_Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+<!-- ...............................................editter section end................................................... -->
+
+
+                        <section class="home-project visible-tag">
+                            <div class="home-project__container">
+                                <div class="home-project__content">
+                                    <div class="home-project__content-head lines-shift-container lines-shift-container--vt">Project</div>
+                                    <a href="project/twitter/" class="home-project__title-link">
+                                        <h2 class="home-project__title heading--display lines-shift-container lines-shift-container--vt" style="--shift-delay: var(--shift-base-delay);">Twitter Experience</h2>
+                                    </a>
+                                    <div class="home-project__tasks lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 2);"> UX/UI Design Concept</div>
+                                    <div class="home-project__description lines-shift-container lines-shift-container--vt" style="--shift-delay: calc(var(--shift-base-delay) * 3);">A visual experience and exploration bringing Twitter content, conversations and real data to life in new and more innovative ways.</div>
+                                    <a href="project/twitter/" class="home-project__link">
+                Explore
+                <svg width="45" height="11" viewBox="0 0 45 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+                                </div>
+                                <div class="home-project__graphics">
+                                    <a href="https://pepela.com/project/twitter/" class="home-project__video-container">
+                <video playsinline muted loop class="video--play-when-visible">
+                    <source src="uploads/2021/01/Home_Twitter.mp4" type="video/mp4">
+                </video>
+                <img class="home-project__image" src="uploads/2021/01/Twitter-Thumb.png">
+            </a>
+                                </div>
+                            </div>
+                        </section>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="wp-block-group bg--black-color">
+            <div class="wp-block-group__inner-container">
+                <div class="wp-block-group max-width-container">
+                    <div class="wp-block-group__inner-container">
+                        <div class="wp-block-group home-about-sections section-container achernov-accordion achernov-accordion--sm-only">
+                            <div class="wp-block-group__inner-container">
+                                <section class="home-about achernov-accordion__item achernov-accordion__item--active">
+                                    <h2 class="home-about__title heading--display achernov-accordion__title">About Me</h2>
+                                    <div class="home-about__container achernov-accordion__content">
+                                        <div class="home-about__left">
+                                            <h2 class="home-about__title heading--display">About Me</h2>
+                                            <div class="home-about__description">I’m a kenyan, Lead Designer &amp; Design Director currently based in Nairobi, Kenya. I love what I do and have done so for the last 2 years working on various projects and brands around the world. As
+                                                a director, I draw upon my experience in design, concept development and team management to bring a comprehensive and creative process to all projects. </div>
+                                        </div>
+                                       
+                                    </div>
+                                </section>
+
+                                <section class="home-about achernov-accordion__item achernov-accordion__item--active">
+                                    <h2 class="home-about__title heading--display achernov-accordion__title">Experience</h2>
+                                    <div class="home-about__container achernov-accordion__content">
+                                        <div class="home-about__left">
+                                            <h2 class="home-about__title heading--display">Experience</h2>
+                                            <div class="home-about__description">Strong conceptual thinking <br /> Modern UI/UX<br /> Visual effects and finished artwork. <br /> Visual design<br /> Interactive experiences <br /> Interaction models<br /> User interfaces<br /> Colours
+                                                <br /> Typography
+                                            </div>
+                                        </div>
+                                        <div class="home-about__right">
+                                            <h3 class="home-about__subtitle heading--h3">Quick summary of my career:</h3>
+                                            <div class="home-about__text">
+                                                2 years design experience<br /> 3 years at web design <br /> 3 years at UI/UX Design<br />  </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="home-about achernov-accordion__item achernov-accordion__item--active">
+                                    <h2 class="home-about__title heading--display achernov-accordion__title">Recognition</h2>
+                                    <div class="home-about__container achernov-accordion__content">
+                                        <div class="home-about__left">
+                                            <h2 class="home-about__title heading--display">Recognition</h2>
+                                            <div class="home-about__description">My work has had viral global exposure  As an art and creative director, my conceptual
+                                                design &amp; UX projects has also received wide recognition in online and offline publications and major blogs. A selection of honors includes Behance &amp; R/GA Digital Age.</div>
+                                        </div>
+                                       
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg--black-color ">
+            <div class="max-width-container">
+                <section class="footer section-container">
+                    <h2 class="footer__title heading--display">Get In Touch</h2>
+                    <a href="mailto:wycliffepepela01@gmail.com" class="footer__email">wycliffepepela01@gmail.com</a>
+                    <div class="footer__social-links">
+                        <a href="https://www.linkedin.com/in/wycliffe Pepela" class="footer__social-link link-underline">LinkedIn</a>
+                        <a href="https://www.behance.net/#" class="footer__social-link link-underline">Behance</a>
+                        <a href="https://dribbble.com/#" class="footer__social-link link-underline">Dribbble</a>
+                        <a href="https://www.instagram.com/#/" class="footer__social-link link-underline">Instagram</a>
+                    </div>
+                    <div class="footer__copyright">© wycliffe pepela. All Rights Reserved.</div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="src/vendor/luxon.min.js"></script>
+    <script src="src/scripts/local-time.js"></script>
+    <script src="src/scripts/pwv-videos.js" async></script>
+    <script src="src/scripts/visible-tag.js" async></script>
+    <script src="src/scripts/achernov-accordion.js" async></script>
+    <script src="src/scripts/cover-size-container.js" async></script>
+    <script src="src/scripts/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script type='text/javascript' src='styles/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+</body>
+
+</html>

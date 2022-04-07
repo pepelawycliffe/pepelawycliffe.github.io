@@ -1,0 +1,100 @@
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2000;
+    overflow: hidden;
+}
+
+.pace.pace-inactive {
+    /*display: none;*/
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms;
+}
+
+.pace .pace-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 252px;
+    height: 252px;
+    transform: translate(-50%, -50%) !important;
+    opacity: 1;
+}
+
+/*.pace .pace-progress::before {
+    content: 'Wycliffe Pepela';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%; height: 100%;
+    border-radius: 50%;
+    border: 1px solid #111;
+}*/
+
+.page .pace-progress .loader-svg {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.pace .pace-progress::before {
+    display: block;
+    content: attr(data-progress);
+    font-family: 'Graphik', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #111;
+}
+
+.pace .pace-progress::after {
+    content: '%';
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 700;
+    color: #111;
+    margin-left: -25px;
+    transform: translateX(100%) translateY(-39%);
+}
+
+.pace .pace-progress-inner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    font-family: 'Graphik', sans-serif;
+}
+
+.pace .pace-progress-inner::before {
+    content: "Wycliffe Pepela";
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #111;
+}
+
+.pace .pace-progress-inner::after {
+    content: "Lead Designer & Design Director";
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999;
+}

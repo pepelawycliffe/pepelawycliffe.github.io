@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Griffy
+- Font Author: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com) with Reseved Font Name "Griffy"
+- Font Source: http://fonts.gstatic.com/s/griffy/v11/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
